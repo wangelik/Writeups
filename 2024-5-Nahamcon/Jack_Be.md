@@ -1,4 +1,4 @@
-# Nahamcon Challenge: Jack Be
+# Nahamcon 2024 Challenge: Jack Be
 
 This challenge from Nahamcon 2024 CTF is of topic category `misc` and focuses on privilege escalation within Linux (medium difficulty).
 The challenge text was given as:
