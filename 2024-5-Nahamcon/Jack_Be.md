@@ -29,8 +29,7 @@ $ sudo -l
 
 ## Exploitation
 
-Since we can only run nimble packages as jack, our goal is to craft such a package whose code then allows us to execute further commands.
-
+Since we can only run nimble packages as jack, our goal is to craft such a package whose code then allows us to execute further commands.   
 There are generally two easy ways to let nimble execute arbitrary commands:
 
 1) Create a nim program that itself executes system commands. An example is provided below:
@@ -102,7 +101,7 @@ The command first sets the working directory as the package folder and then runs
 After everything is set up, we only have to run the following commands as `user`:
 
 ```console
-$ cd /tmp/[project folder]
+$ cd /tmp/[project one]
 $ sudo -u jack /usr/bin/nimble run
 ...
 ... // package one is build and run as "jack"
